@@ -1,0 +1,50 @@
+.card-container{
+    background-color: #FFFFFF;
+    padding: 30px;
+    border-radius: 10px;
+}
+.postedAt, .contract, .conpany{
+    color: #6E8098;
+    
+}
+.dot{
+    font-size: 20px;
+    font-weight: bolder;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #6E8098;
+    
+}
+.location{
+    color: #5964E0;
+    font-weight: bold;
+    margin-top: 40px;
+}
+.position{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.link-text{
+    text-decoration: none;
+    color: black;
+}
+.link-text:hover{
+    opacity: 0.6;
+}
+.card-logo-container{
+    height: 50px;
+    width: 50px;
+    
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -50px;
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width: 770px) {
+    .location{
+        margin-top: 20px;
+    }
+}

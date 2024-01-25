@@ -1,0 +1,43 @@
+
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 60px 30px;
+    border-radius: 10px;
+    margin-top: 120px;
+    
+}
+.showmmore-btn{
+    margin-top: 50px;
+    padding-bottom: 120px;
+    text-align: center;
+    
+}
+
+
+.dark-mode{
+    background-color: #121721;
+    color: white;
+}
+.dark-mode  .grid-item{
+    background-color: #19202D; 
+    color: white; 
+}
+.dark-mode .position{
+    color: white;
+}
+.container{
+    min-height: 100vh;
+}
+
+@media screen and (max-width: 1200px){
+    .grid-container{
+        grid-template-columns: auto auto;
+    }
+}
+@media screen and (max-width: 770px){
+    .grid-container{
+        grid-template-columns: auto;
+        margin-top: 60px;
+    }
+}

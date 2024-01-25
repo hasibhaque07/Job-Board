@@ -1,0 +1,174 @@
+*{
+    line-height: 1.6;
+}
+.dark-mode{
+    background-color: black;
+    color: white;
+}
+.job-details-container{
+    
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.job-container{
+    max-width: 800px;
+    margin: 0 auto;
+    
+    
+}
+.job-header{
+    display: flex;
+    align-items: center;
+    margin-top: -40px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.job-header-logo{  
+    text-align: center;
+}
+.job-header-logo{
+    height: 140px;
+    width: 140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.job-header-content{
+    flex:2;
+    
+    padding-left: 30px;
+}
+.job-header-btn{
+    flex: 1;
+   
+    text-align: center;
+}
+.job-header{
+    background: white;
+    margin-bottom: 20px;
+    
+}
+.main-container{
+    background: white;
+    margin-bottom: 80px;
+    margin-top: 20px;
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-radius: 10px;
+}
+
+
+.job-footer{
+    background-color: white;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.job-footer-container{
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.header-website, .main-postedAt, .main-contract,.main-desc,
+ .main-requirement-desc, .main-requirement-list, .main-todo-desc,
+  .main-todo-list, .footer-company{
+    color:#6E8098;
+} 
+
+.main-location{
+    color: #5964E0;
+}
+.main-dot{
+    margin-right: 10px;
+    margin-left: 10px;
+    font-size: 40px;
+    color:#6E8098;
+}
+.main-header-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.main-job-position{
+    margin-bottom: 15px;
+}
+.main-desc{
+    padding-top: 30px;
+    
+}
+.requirements-h3, .todo-h3{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.main-requirement-list, .main-todo-list{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.dark-mode .job-header,
+.dark-mode .job-footer,
+.dark-mode .main-container,
+.dark-mode .job-footer-container {
+    background-color: #19202D;
+}
+@media screen and (max-width: 770px) {
+    .job-header{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .job-header-company{
+        font-size: 25px;
+    }
+    .job-header-logo{
+        height: 80px;
+        width: 80px;
+        border-radius: 10px;
+        margin-top: -40px;
+    }
+    .job-header-content{
+        text-align: center;
+        margin-top: 30px;
+        margin-bottom: 25px;
+    }
+    .job-header-btn{
+        margin-bottom: 25px;
+    }
+    .main-header-container{
+        flex-direction: column;
+    }
+    .main-header-btn{
+        width: 100%;
+        margin-top: 30px;
+        
+    }
+    .main-header-content{
+       
+        width: 100%;
+    }
+    .main-job-position{
+        font-size: 25px;
+    }
+    .job-footer-container{
+        flex-direction: column;
+        
+    }
+    .job-footer-content{
+        display: none;
+    }
+    
+    .job-footer-btn{
+        
+        width: 100%;
+
+    }
+}
